@@ -1,7 +1,7 @@
 variable "vpc_cidr" {
     type = string
     description = "my CIDR block"
-    sensitive = true
+    sensitive = false
 }
 
 variable "tags" {
